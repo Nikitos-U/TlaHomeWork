@@ -1,0 +1,354 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.15 of Day Month 20?? (rev: eb3ff99)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 73 and seed 636389380878683067 with 6 workers on 12 cores with 1214MB heap and 2730MB offheap memory [pid: 97135] (Mac OS X 10.15.7 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/a18535673/.tlaplus/TripleDangerSolution/TripleDangerSolution.toolbox/Model_1/MC.tla
+Parsing file /Users/a18535673/.tlaplus/TripleDangerSolution/TripleDangerSolution.toolbox/Model_1/TripleDangerSolution.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module TripleDangerSolution
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2020-12-13 18:43:41)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2020-12-13 18:43:42.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant energyBurstsInvariant is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ executor = ""
+/\ pc = (0 :> "Monitor1" @@ 1 :> "A" @@ 2 :> "C")
+/\ energyBursts = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <C line 98, col 6 to line 102, col 46 of module TripleDangerSolution>
+/\ executor = ""
+/\ pc = (0 :> "Monitor1" @@ 1 :> "A" @@ 2 :> "Monitor3")
+/\ energyBursts = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <A line 74, col 6 to line 78, col 46 of module TripleDangerSolution>
+/\ executor = ""
+/\ pc = (0 :> "Monitor1" @@ 1 :> "Monitor2" @@ 2 :> "Monitor3")
+/\ energyBursts = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Monitor2 line 80, col 13 to line 84, col 37 of module TripleDangerSolution>
+/\ executor = "electricHead"
+/\ pc = (0 :> "Monitor1" @@ 1 :> "ElectricHeadAction" @@ 2 :> "Monitor3")
+/\ energyBursts = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <ElectricHeadAction line 86, col 23 to line 89, col 53 of module TripleDangerSolution>
+/\ executor = ""
+/\ pc = (0 :> "Monitor1" @@ 1 :> "B" @@ 2 :> "Monitor3")
+/\ energyBursts = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Monitor3 line 104, col 13 to line 108, col 37 of module TripleDangerSolution>
+/\ executor = "flameHead"
+/\ pc = (0 :> "Monitor1" @@ 1 :> "B" @@ 2 :> "FlameHeadAction")
+/\ energyBursts = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <FlameHeadAction line 110, col 20 to line 113, col 50 of module TripleDangerSolution>
+/\ executor = ""
+/\ pc = (0 :> "Monitor1" @@ 1 :> "B" @@ 2 :> "D")
+/\ energyBursts = -1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2020-12-13 18:43:42
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 54, col 1 to line 54, col 4 of module TripleDangerSolution>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 9 to line 59, col 59 of module TripleDangerSolution: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Monitor1 line 61, col 1 to line 61, col 8 of module TripleDangerSolution>: 7:20
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 16 to line 61, col 33 of module TripleDangerSolution: 94
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 61, col 16 to line 61, col 20 of module TripleDangerSolution: 74
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 62, col 16 to line 62, col 28 of module TripleDangerSolution: 50
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 62, col 16 to line 62, col 23 of module TripleDangerSolution: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 16 to line 63, col 37 of module TripleDangerSolution: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 16 to line 64, col 56 of module TripleDangerSolution: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 16 to line 65, col 37 of module TripleDangerSolution: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<SorcererAction line 67, col 1 to line 67, col 14 of module TripleDangerSolution>: 3:16
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 67, col 22 to line 67, col 45 of module TripleDangerSolution: 90
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 67, col 22 to line 67, col 26 of module TripleDangerSolution: 74
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 22 to line 68, col 53 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 22 to line 69, col 35 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 22 to line 70, col 52 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<A line 74, col 1 to line 74, col 1 of module TripleDangerSolution>: 5:16
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 9 to line 74, col 19 of module TripleDangerSolution: 90
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 74, col 9 to line 74, col 13 of module TripleDangerSolution: 74
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 12 to line 75, col 27 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 17 to line 76, col 54 of module TripleDangerSolution: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 77, col 17 to line 77, col 47 of module TripleDangerSolution: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 9 to line 78, col 46 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Monitor2 line 80, col 1 to line 80, col 8 of module TripleDangerSolution>: 6:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 16 to line 80, col 33 of module TripleDangerSolution: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 16 to line 80, col 20 of module TripleDangerSolution: 73
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 16 to line 81, col 28 of module TripleDangerSolution: 24
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 81, col 16 to line 81, col 23 of module TripleDangerSolution: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 16 to line 82, col 41 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 83, col 16 to line 83, col 60 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 16 to line 84, col 37 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ElectricHeadAction line 86, col 1 to line 86, col 18 of module TripleDangerSolution>: 6:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 86, col 26 to line 86, col 53 of module TripleDangerSolution: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 86, col 26 to line 86, col 30 of module TripleDangerSolution: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 87, col 26 to line 87, col 57 of module TripleDangerSolution: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 87, col 42 to line 87, col 57 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 26 to line 88, col 39 of module TripleDangerSolution: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 26 to line 89, col 53 of module TripleDangerSolution: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 89, col 32 to line 89, col 53 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<B line 91, col 1 to line 91, col 1 of module TripleDangerSolution>: 6:18
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 9 to line 91, col 19 of module TripleDangerSolution: 88
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 91, col 9 to line 91, col 13 of module TripleDangerSolution: 70
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 9 to line 92, col 12 of module TripleDangerSolution: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 93, col 9 to line 93, col 39 of module TripleDangerSolution: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 94, col 9 to line 94, col 46 of module TripleDangerSolution: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<C line 98, col 1 to line 98, col 1 of module TripleDangerSolution>: 7:15
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 9 to line 98, col 19 of module TripleDangerSolution: 85
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 98, col 9 to line 98, col 13 of module TripleDangerSolution: 70
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 12 to line 99, col 27 of module TripleDangerSolution: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 17 to line 100, col 54 of module TripleDangerSolution: 11
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 17 to line 101, col 47 of module TripleDangerSolution: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 9 to line 102, col 46 of module TripleDangerSolution: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Monitor3 line 104, col 1 to line 104, col 8 of module TripleDangerSolution>: 8:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 16 to line 104, col 33 of module TripleDangerSolution: 78
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 104, col 16 to line 104, col 20 of module TripleDangerSolution: 69
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 105, col 16 to line 105, col 28 of module TripleDangerSolution: 24
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 105, col 16 to line 105, col 23 of module TripleDangerSolution: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 16 to line 106, col 38 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 16 to line 107, col 57 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 16 to line 108, col 37 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<FlameHeadAction line 110, col 1 to line 110, col 15 of module TripleDangerSolution>: 7:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 23 to line 110, col 47 of module TripleDangerSolution: 75
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 110, col 23 to line 110, col 27 of module TripleDangerSolution: 68
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 111, col 23 to line 111, col 54 of module TripleDangerSolution: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 111, col 39 to line 111, col 54 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 23 to line 112, col 36 of module TripleDangerSolution: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 23 to line 113, col 50 of module TripleDangerSolution: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 29 to line 113, col 50 of module TripleDangerSolution: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<D line 115, col 1 to line 115, col 1 of module TripleDangerSolution>: 15:16
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 9 to line 115, col 19 of module TripleDangerSolution: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 115, col 9 to line 115, col 13 of module TripleDangerSolution: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 116, col 9 to line 116, col 12 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 9 to line 117, col 39 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 118, col 9 to line 118, col 46 of module TripleDangerSolution: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 123, col 1 to line 123, col 11 of module TripleDangerSolution>: 0:2
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 40 to line 123, col 56 of module TripleDangerSolution: 106
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 123, col 40 to line 123, col 47 of module TripleDangerSolution: 100
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 31 to line 123, col 37 of module TripleDangerSolution: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 19 to line 124, col 32 of module TripleDangerSolution: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<energyBurstsInvariant line 134, col 1 to line 134, col 21 of module TripleDangerSolution>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 134, col 26 to line 134, col 42 of module TripleDangerSolution: 71
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(11) at 2020-12-13 18:43:42: 127 states generated (3 560 s/min), 71 distinct states found (1 990 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+127 states generated, 71 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 11.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 3 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 2152ms at (2020-12-13 18:43:42)
+@!@!@ENDMSG 2186 @!@!@

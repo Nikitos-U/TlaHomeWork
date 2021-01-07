@@ -1,0 +1,1798 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.15 of Day Month 20?? (rev: eb3ff99)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 91 and seed -8572897460830513822 with 6 workers on 12 cores with 1214MB heap and 2730MB offheap memory [pid: 73692] (Mac OS X 10.15.7 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/a18535673/.tlaplus/Bakery_lock/Bakery_lock.toolbox/Model_1/MC.tla
+Parsing file /Users/a18535673/.tlaplus/Bakery_lock/Bakery_lock.toolbox/Model_1/Bakery_lock.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module Bakery_lock
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2021-01-07 12:01:19)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 6 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2021-01-07 12:01:19.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 6 branches of temporal properties for the current state space with 168072 total distinct states at (2021-01-07 12:01:22)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2116:1 @!@!@
+Temporal properties were violated.
+
+@!@!@ENDMSG 2116 @!@!@
+@!@!@STARTMSG 2264:1 @!@!@
+The following behavior constitutes a counter-example:
+
+@!@!@ENDMSG 2264 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p0", "p0", "p0", "p0", "p0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = <<<<>>, <<>>, <<>>, <<>>, <<>>>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <p0 line 372, col 13 to line 376, col 81 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p0", "p0", "p0", "p1", "p0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = <<<<>>, <<>>, <<>>, <<>>, <<>>>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <p0 line 372, col 13 to line 376, col 81 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p0", "p1", "p0", "p1", "p0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = <<<<>>, <<>>, <<>>, <<>>, <<>>>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <p0 line 372, col 13 to line 376, col 81 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "p1", "p0", "p1", "p0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = <<<<>>, <<>>, <<>>, <<>>, <<>>>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <p1 line 378, col 13 to line 387, col 69 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p1", "p0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <p0 line 372, col 13 to line 376, col 81 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p1", "p1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <p1 line 378, col 13 to line 387, col 69 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "nonCritical0", "p1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <nonCritical0 line 149, col 23 to line 156, col 71 of module Bakery_lock>
+/\ isEndless = <<defaultInitValue, defaultInitValue, defaultInitValue, 0, defaultInitValue>>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "nonCritical1", "p1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <nonCritical1 line 158, col 23 to line 165, col 79 of module Bakery_lock>
+/\ isEndless = <<defaultInitValue, defaultInitValue, defaultInitValue, 0, defaultInitValue>>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "nonCritical4", "p1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <nonCritical4 line 182, col 23 to line 189, col 71 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p2", "p1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   <<>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <p1 line 378, col 13 to line 387, col 69 of module Bakery_lock>
+/\ isEndless = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p2", "nonCritical0">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <nonCritical0 line 149, col 23 to line 156, col 71 of module Bakery_lock>
+/\ isEndless = <<defaultInitValue, defaultInitValue, defaultInitValue, defaultInitValue, 1>>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p2", "nonCritical1">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+13: <nonCritical1 line 158, col 23 to line 165, col 79 of module Bakery_lock>
+/\ isEndless = <<defaultInitValue, defaultInitValue, defaultInitValue, defaultInitValue, 1>>
+/\ i = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ j = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ k = <<1, 1, 1, 1, 1>>
+/\ labelI_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ m = <<-1, -1, -1, -1, -1>>
+/\ otherprocesses = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ pc = <<"p1", "nonCritical0", "p0", "p2", "nonCritical2">>
+/\ labelJ_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ temp = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ lessLessProcResult = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ labelI = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ labelJ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ i_ = <<1, 2, 3, 4, 5>>
+/\ label = <<0, 0, 0, 0, 0>>
+/\ j_ = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ maxProcResult = <<0, 0, 0, 0, 0>>
+/\ choosing = <<FALSE, FALSE, FALSE, FALSE, FALSE>>
+/\ j_l = << defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue,
+   defaultInitValue >>
+/\ stack = << <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >>,
+   <<>>,
+   <<>>,
+   << [ pc |-> "p2",
+        isEndless |-> defaultInitValue,
+        procedure |-> "NonCriticalSection" ] >> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2218:4 @!@!@
+14: Stuttering
+@!@!@ENDMSG 2218 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2021-01-07 12:01:23
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2021-01-07 12:01:23
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 121, col 1 to line 121, col 4 of module Bakery_lock>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 9 to line 147, col 43 of module Bakery_lock: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical0 line 149, col 1 to line 149, col 18 of module Bakery_lock>: 6887:25424
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 26 to line 149, col 50 of module Bakery_lock: 107434
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 149, col 26 to line 149, col 33 of module Bakery_lock: 94722
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 28 to line 151, col 70 of module Bakery_lock: 25424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 150, col 35 to line 150, col 39 of module Bakery_lock: 12712:38136
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 26 to line 152, col 67 of module Bakery_lock: 25424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 153, col 26 to line 156, col 71 of module Bakery_lock: 25424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical1 line 158, col 1 to line 158, col 18 of module Bakery_lock>: 4889:17261
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 26 to line 158, col 50 of module Bakery_lock: 111981
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 26 to line 158, col 33 of module Bakery_lock: 94720
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 30 to line 159, col 48 of module Bakery_lock: 17261
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 34 to line 160, col 78 of module Bakery_lock: 8420
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 78 of module Bakery_lock: 8841
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 26 to line 165, col 79 of module Bakery_lock: 17261
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical2 line 167, col 1 to line 167, col 18 of module Bakery_lock>: 1628:5243
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 26 to line 167, col 50 of module Bakery_lock: 99961
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 167, col 26 to line 167, col 33 of module Bakery_lock: 94718
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 26 to line 168, col 67 of module Bakery_lock: 5243
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 26 to line 172, col 79 of module Bakery_lock: 5243
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical3 line 174, col 1 to line 174, col 18 of module Bakery_lock>: 0:3069
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 26 to line 174, col 50 of module Bakery_lock: 97787
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 174, col 26 to line 174, col 33 of module Bakery_lock: 94718
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 26 to line 175, col 29 of module Bakery_lock: 3069
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 26 to line 176, col 67 of module Bakery_lock: 3069
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 26 to line 180, col 79 of module Bakery_lock: 3069
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical4 line 182, col 1 to line 182, col 18 of module Bakery_lock>: 1609:5939
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 26 to line 182, col 50 of module Bakery_lock: 100657
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 182, col 26 to line 182, col 33 of module Bakery_lock: 94718
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 26 to line 183, col 73 of module Bakery_lock: 5939
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 26 to line 184, col 94 of module Bakery_lock: 5939
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 26 to line 185, col 76 of module Bakery_lock: 5939
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 26 to line 189, col 71 of module Bakery_lock: 5939
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll1 line 195, col 1 to line 195, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 17 to line 195, col 32 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 17 to line 196, col 70 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 197, col 17 to line 197, col 49 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 17 to line 201, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll2 line 203, col 1 to line 203, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 17 to line 203, col 32 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 17 to line 204, col 70 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 17 to line 205, col 49 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 17 to line 209, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll3 line 211, col 1 to line 211, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 17 to line 211, col 32 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 28 to line 213, col 96 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 214, col 28 to line 214, col 75 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 215, col 28 to line 215, col 90 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 216, col 28 to line 216, col 90 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 28 to line 217, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 218, col 28 to line 218, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 219, col 28 to line 219, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 28 to line 220, col 60 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 28 to line 222, col 59 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 17 to line 225, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll4 line 227, col 1 to line 227, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 17 to line 227, col 32 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 28 to line 229, col 96 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 230, col 28 to line 230, col 75 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 231, col 28 to line 231, col 90 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 28 to line 232, col 90 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 233, col 28 to line 233, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 234, col 28 to line 234, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 235, col 28 to line 235, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 28 to line 236, col 60 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 28 to line 238, col 59 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 239, col 17 to line 241, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll5 line 243, col 1 to line 243, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 32 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 86 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 64 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 79 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 247, col 17 to line 247, col 79 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 17 to line 250, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 251, col 17 to line 253, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max1 line 258, col 1 to line 258, col 10 of module Bakery_lock>: 368:1123
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 258, col 18 to line 258, col 34 of module Bakery_lock: 95840
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 258, col 18 to line 258, col 25 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 22 to line 259, col 33 of module Bakery_lock: 1123
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 26 to line 260, col 62 of module Bakery_lock: 1123
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 261, col 29 to line 261, col 62 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 262, col 18 to line 265, col 63 of module Bakery_lock: 1123
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max2 line 267, col 1 to line 267, col 10 of module Bakery_lock>: 183:519
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 267, col 18 to line 267, col 34 of module Bakery_lock: 95236
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 267, col 18 to line 267, col 25 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 18 to line 268, col 63 of module Bakery_lock: 519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 269, col 18 to line 269, col 51 of module Bakery_lock: 519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 270, col 18 to line 273, col 51 of module Bakery_lock: 519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max3 line 275, col 1 to line 275, col 10 of module Bakery_lock>: 72:217
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 275, col 18 to line 275, col 34 of module Bakery_lock: 94934
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 275, col 18 to line 275, col 25 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 22 to line 276, col 41 of module Bakery_lock: 217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 277, col 26 to line 277, col 64 of module Bakery_lock: 211
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 278, col 26 to line 279, col 34 of module Bakery_lock: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 18 to line 280, col 52 of module Bakery_lock: 217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 18 to line 281, col 51 of module Bakery_lock: 217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 282, col 18 to line 285, col 51 of module Bakery_lock: 217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max4 line 287, col 1 to line 287, col 10 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 18 to line 287, col 34 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 288, col 18 to line 288, col 74 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 289, col 18 to line 289, col 51 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 290, col 18 to line 293, col 47 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max5 line 295, col 1 to line 295, col 10 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 295, col 18 to line 295, col 34 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 296, col 18 to line 296, col 65 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 18 to line 297, col 62 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 18 to line 298, col 62 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 18 to line 299, col 71 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 300, col 18 to line 300, col 68 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 301, col 18 to line 304, col 47 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait1 line 309, col 1 to line 309, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 309, col 19 to line 309, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 310, col 19 to line 310, col 53 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 19 to line 314, col 64 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait2 line 316, col 1 to line 316, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 316, col 19 to line 316, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 317, col 19 to line 317, col 68 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 318, col 19 to line 318, col 53 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 19 to line 322, col 52 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait3 line 324, col 1 to line 324, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 324, col 19 to line 324, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 325, col 19 to line 325, col 68 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 326, col 19 to line 326, col 53 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 327, col 19 to line 330, col 52 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait4 line 332, col 1 to line 332, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 19 to line 332, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 22 to line 333, col 58 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 334, col 22 to line 334, col 58 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 335, col 22 to line 341, col 70 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 342, col 19 to line 342, col 72 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 343, col 19 to line 343, col 72 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 344, col 19 to line 344, col 51 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 345, col 19 to line 347, col 72 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait5 line 349, col 1 to line 349, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 349, col 19 to line 349, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 351, col 30 to line 351, col 64 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 352, col 30 to line 352, col 64 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 353, col 19 to line 356, col 64 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait6 line 358, col 1 to line 358, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 358, col 19 to line 358, col 36 of module Bakery_lock: 94717
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 19 to line 359, col 66 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 360, col 19 to line 360, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 19 to line 361, col 78 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 362, col 19 to line 362, col 63 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 363, col 19 to line 363, col 63 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 364, col 19 to line 364, col 69 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 365, col 19 to line 367, col 77 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p0 line 372, col 1 to line 372, col 8 of module Bakery_lock>: 5628:24657
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 372, col 16 to line 372, col 30 of module Bakery_lock: 119345
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 372, col 16 to line 372, col 23 of module Bakery_lock: 94688
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 373, col 16 to line 373, col 47 of module Bakery_lock: 24657
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 374, col 16 to line 376, col 81 of module Bakery_lock: 24657
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p1 line 378, col 1 to line 378, col 8 of module Bakery_lock>: 5101:18387
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 378, col 16 to line 378, col 30 of module Bakery_lock: 113071
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 378, col 16 to line 378, col 23 of module Bakery_lock: 94684
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 379, col 16 to line 382, col 64 of module Bakery_lock: 18387
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 383, col 16 to line 383, col 73 of module Bakery_lock: 18387
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 384, col 16 to line 384, col 57 of module Bakery_lock: 18387
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 385, col 16 to line 387, col 69 of module Bakery_lock: 18387
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p2 line 389, col 1 to line 389, col 8 of module Bakery_lock>: 1050:3569
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 389, col 16 to line 389, col 30 of module Bakery_lock: 98250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 389, col 16 to line 389, col 23 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 390, col 16 to line 390, col 63 of module Bakery_lock: 3569
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 391, col 16 to line 391, col 48 of module Bakery_lock: 3569
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 392, col 16 to line 394, col 75 of module Bakery_lock: 3569
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3a line 396, col 1 to line 396, col 9 of module Bakery_lock>: 596:2002
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 396, col 17 to line 396, col 32 of module Bakery_lock: 96683
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 396, col 17 to line 396, col 24 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 397, col 17 to line 402, col 65 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 403, col 17 to line 403, col 44 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 404, col 17 to line 404, col 43 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 405, col 17 to line 405, col 64 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 406, col 17 to line 406, col 50 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 407, col 17 to line 410, col 46 of module Bakery_lock: 2002
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3b line 412, col 1 to line 412, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 412, col 17 to line 412, col 32 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 414, col 28 to line 414, col 93 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 416, col 28 to line 416, col 50 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 417, col 17 to line 417, col 49 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 418, col 17 to line 420, col 76 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3c line 422, col 1 to line 422, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 422, col 17 to line 422, col 32 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 423, col 17 to line 423, col 77 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 424, col 17 to line 424, col 48 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 425, col 17 to line 428, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p4 line 430, col 1 to line 430, col 8 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 430, col 16 to line 430, col 30 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 431, col 16 to line 431, col 60 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 432, col 16 to line 432, col 48 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 433, col 16 to line 435, col 75 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5a line 437, col 1 to line 437, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 437, col 17 to line 437, col 32 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 438, col 17 to line 438, col 85 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 439, col 17 to line 439, col 49 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 440, col 17 to line 443, col 46 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5b line 445, col 1 to line 445, col 9 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 445, col 17 to line 445, col 32 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 448, col 30 to line 448, col 61 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 449, col 28 to line 449, col 113 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 450, col 28 to line 450, col 59 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 451, col 28 to line 451, col 72 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 452, col 28 to line 452, col 61 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 453, col 17 to line 456, col 42 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p6 line 458, col 1 to line 458, col 8 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 458, col 16 to line 458, col 30 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 460, col 16 to line 460, col 47 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 461, col 16 to line 463, col 81 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p7 line 465, col 1 to line 465, col 8 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 465, col 16 to line 465, col 30 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 466, col 19 to line 466, col 52 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 467, col 19 to line 467, col 52 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 468, col 19 to line 474, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 475, col 16 to line 475, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 476, col 16 to line 476, col 67 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 477, col 16 to line 477, col 50 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 478, col 16 to line 480, col 53 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<criticalSection line 482, col 1 to line 482, col 21 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 482, col 29 to line 482, col 56 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 484, col 29 to line 484, col 60 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 485, col 29 to line 489, col 58 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p9 line 491, col 1 to line 491, col 8 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 491, col 16 to line 491, col 30 of module Bakery_lock: 94681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 492, col 16 to line 492, col 54 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 493, col 16 to line 493, col 47 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 494, col 16 to line 496, col 75 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 504, col 1 to line 504, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 504, col 19 to line 504, col 56 of module Bakery_lock: 18933
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 505, col 19 to line 505, col 32 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionInvariant line 517, col 1 to line 517, col 24 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 517, col 29 to line 519, col 69 of module Bakery_lock: 28012
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionOrderInvariant line 525, col 1 to line 525, col 29 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 525, col 34 to line 527, col 62 of module Bakery_lock: 28012
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 526, col 37 to line 527, col 62 of module Bakery_lock: 140060
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 525, col 43 to line 525, col 46 of module Bakery_lock: 28012
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Action line 528, col 23 to line 528, col 134 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 528, col 23 to line 528, col 134 of module Bakery_lock: 28012
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 528, col 50 to line 528, col 134 of module Bakery_lock: 700300
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 528, col 51 to line 528, col 63 of module Bakery_lock: 700300
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 528, col 69 to line 528, col 134 of module Bakery_lock: 560240
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 528, col 43 to line 528, col 46 of module Bakery_lock: 28012
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2021-01-07 12:01:23: 107 343 states generated (1 514 361 s/min), 28 012 distinct states found (395 184 ds/min), 9 084 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+107343 states generated, 28012 distinct states found, 9084 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 4262ms at (2021-01-07 12:01:23)
+@!@!@ENDMSG 2186 @!@!@

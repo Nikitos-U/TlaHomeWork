@@ -1,0 +1,2869 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.15 of Day Month 20?? (rev: eb3ff99)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 106 and seed 3935158447051278901 with 6 workers on 12 cores with 1214MB heap and 2730MB offheap memory [pid: 73989] (Mac OS X 10.15.7 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/a18535673/.tlaplus/Bakery_lock/Bakery_lock.toolbox/Model_1/MC.tla
+Parsing file /Users/a18535673/.tlaplus/Bakery_lock/Bakery_lock.toolbox/Model_1/Bakery_lock.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202004251858/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module Bakery_lock
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2021-01-07 12:16:08)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2021-01-07 12:16:09.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(56) at 2021-01-07 12:16:12: 259 001 states generated (259 001 s/min), 90 419 distinct states found (90 419 ds/min), 7 478 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(110) at 2021-01-07 12:17:12: 13 123 899 states generated (12 864 898 s/min), 4 484 344 distinct states found (4 393 925 ds/min), 223 713 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(124) at 2021-01-07 12:18:12: 25 881 110 states generated (12 757 211 s/min), 8 804 170 distinct states found (4 319 826 ds/min), 391 120 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(133) at 2021-01-07 12:19:12: 38 514 317 states generated (12 633 207 s/min), 13 093 022 distinct states found (4 288 852 ds/min), 573 560 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2021-01-07 12:19:12
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 121, col 1 to line 121, col 4 of module Bakery_lock>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 9 to line 147, col 43 of module Bakery_lock: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical0 line 149, col 1 to line 149, col 18 of module Bakery_lock>: 418967:1215450
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 26 to line 149, col 50 of module Bakery_lock: 38166886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 149, col 26 to line 149, col 33 of module Bakery_lock: 37559173
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 26 to line 149, col 27 of module Bakery_lock: 37559182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 29 to line 149, col 32 of module Bakery_lock: 37559198
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 28 to line 151, col 70 of module Bakery_lock: 1215450
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 150, col 35 to line 150, col 39 of module Bakery_lock: 607725:1823175
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 26 to line 152, col 67 of module Bakery_lock: 1215450
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 153, col 26 to line 156, col 71 of module Bakery_lock: 1215450
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical1 line 158, col 1 to line 158, col 18 of module Bakery_lock>: 385919:1164044
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 26 to line 158, col 50 of module Bakery_lock: 38723341
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 26 to line 158, col 33 of module Bakery_lock: 37559308
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 30 to line 159, col 48 of module Bakery_lock: 1164046
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 34 to line 160, col 78 of module Bakery_lock: 582022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 78 of module Bakery_lock: 582022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 26 to line 165, col 79 of module Bakery_lock: 1164044
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical2 line 167, col 1 to line 167, col 18 of module Bakery_lock>: 171573:557181
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 26 to line 167, col 50 of module Bakery_lock: 38116576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 167, col 26 to line 167, col 33 of module Bakery_lock: 37559405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 26 to line 168, col 67 of module Bakery_lock: 557181
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 26 to line 172, col 79 of module Bakery_lock: 557181
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical3 line 174, col 1 to line 174, col 18 of module Bakery_lock>: 0:533123
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 26 to line 174, col 50 of module Bakery_lock: 38092591
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 174, col 26 to line 174, col 33 of module Bakery_lock: 37559475
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 174, col 26 to line 174, col 27 of module Bakery_lock: 37559483
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 174, col 29 to line 174, col 32 of module Bakery_lock: 37559488
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 26 to line 175, col 29 of module Bakery_lock: 533124
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 26 to line 176, col 67 of module Bakery_lock: 533124
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 26 to line 180, col 79 of module Bakery_lock: 533124
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical4 line 182, col 1 to line 182, col 18 of module Bakery_lock>: 136535:557183
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 26 to line 182, col 50 of module Bakery_lock: 38116796
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 182, col 26 to line 182, col 33 of module Bakery_lock: 37559624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 26 to line 183, col 73 of module Bakery_lock: 557183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 26 to line 184, col 94 of module Bakery_lock: 557183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 26 to line 185, col 76 of module Bakery_lock: 557183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 26 to line 189, col 71 of module Bakery_lock: 557183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll1 line 195, col 1 to line 195, col 9 of module Bakery_lock>: 581067:1750043
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 17 to line 195, col 32 of module Bakery_lock: 39309739
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 195, col 17 to line 195, col 24 of module Bakery_lock: 37559705
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 17 to line 196, col 70 of module Bakery_lock: 1750046
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 197, col 17 to line 197, col 49 of module Bakery_lock: 1750048
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 17 to line 201, col 46 of module Bakery_lock: 1750043
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll2 line 203, col 1 to line 203, col 9 of module Bakery_lock>: 603409:1675150
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 17 to line 203, col 32 of module Bakery_lock: 39234942
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 203, col 17 to line 203, col 24 of module Bakery_lock: 37559798
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 203, col 17 to line 203, col 18 of module Bakery_lock: 37559809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 203, col 20 to line 203, col 23 of module Bakery_lock: 37559816
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 17 to line 204, col 70 of module Bakery_lock: 1675153
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 17 to line 205, col 49 of module Bakery_lock: 1675154
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 17 to line 209, col 46 of module Bakery_lock: 1675151
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll3 line 211, col 1 to line 211, col 9 of module Bakery_lock>: 565962:2046138
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 17 to line 211, col 32 of module Bakery_lock: 39606060
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 211, col 17 to line 211, col 24 of module Bakery_lock: 37559928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 21 to line 212, col 49 of module Bakery_lock: 2046145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 25 to line 219, col 78 of module Bakery_lock: 502416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 28 to line 220, col 60 of module Bakery_lock: 1543729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 28 to line 222, col 59 of module Bakery_lock: 1543725
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 17 to line 225, col 46 of module Bakery_lock: 2046141
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll4 line 227, col 1 to line 227, col 9 of module Bakery_lock>: 485610:1471695
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 17 to line 227, col 32 of module Bakery_lock: 39031736
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 17 to line 227, col 24 of module Bakery_lock: 37560050
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 21 to line 228, col 74 of module Bakery_lock: 1471698
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 21 to line 228, col 49 of module Bakery_lock: 1471699
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 54 to line 228, col 74 of module Bakery_lock: 188442
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 25 to line 235, col 78 of module Bakery_lock: 69630
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 28 to line 236, col 60 of module Bakery_lock: 1402073
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 28 to line 238, col 59 of module Bakery_lock: 1402065
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 239, col 17 to line 241, col 46 of module Bakery_lock: 1471695
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll5 line 243, col 1 to line 243, col 9 of module Bakery_lock>: 334809:1336213
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 32 of module Bakery_lock: 38896381
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 243, col 17 to line 243, col 24 of module Bakery_lock: 37560173
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 86 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 64 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 79 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 247, col 17 to line 247, col 79 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 67 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 67 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 17 to line 250, col 67 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 250, col 26 to line 250, col 67 of module Bakery_lock: 1336217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 251, col 17 to line 253, col 46 of module Bakery_lock: 1336216
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max1 line 258, col 1 to line 258, col 10 of module Bakery_lock>: 799538:2003461
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 258, col 18 to line 258, col 34 of module Bakery_lock: 39563870
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 258, col 18 to line 258, col 25 of module Bakery_lock: 37560410
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 22 to line 259, col 33 of module Bakery_lock: 2003471
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 29 to line 260, col 62 of module Bakery_lock: 1523289
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 260, col 35 to line 260, col 62 of module Bakery_lock: 1523289
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 261, col 26 to line 261, col 62 of module Bakery_lock: 480181
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 262, col 18 to line 265, col 63 of module Bakery_lock: 2003468
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max2 line 267, col 1 to line 267, col 10 of module Bakery_lock>: 619526:1452636
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 267, col 18 to line 267, col 34 of module Bakery_lock: 39013130
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 267, col 18 to line 267, col 25 of module Bakery_lock: 37560504
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 18 to line 268, col 63 of module Bakery_lock: 1452636
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 269, col 18 to line 269, col 51 of module Bakery_lock: 1452636
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 270, col 18 to line 273, col 51 of module Bakery_lock: 1452636
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max3 line 275, col 1 to line 275, col 10 of module Bakery_lock>: 563124:1654544
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 275, col 18 to line 275, col 34 of module Bakery_lock: 39215122
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 275, col 18 to line 275, col 25 of module Bakery_lock: 37560591
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 275, col 18 to line 275, col 19 of module Bakery_lock: 37560606
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 275, col 21 to line 275, col 24 of module Bakery_lock: 37560613
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 22 to line 276, col 41 of module Bakery_lock: 1654544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 277, col 26 to line 277, col 64 of module Bakery_lock: 894570
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 278, col 26 to line 279, col 34 of module Bakery_lock: 759974
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 18 to line 280, col 52 of module Bakery_lock: 1654544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 18 to line 281, col 51 of module Bakery_lock: 1654544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 282, col 18 to line 285, col 51 of module Bakery_lock: 1654544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max4 line 287, col 1 to line 287, col 10 of module Bakery_lock>: 156913:454983
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 18 to line 287, col 34 of module Bakery_lock: 38015672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 287, col 18 to line 287, col 25 of module Bakery_lock: 37560696
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 288, col 18 to line 288, col 74 of module Bakery_lock: 454985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 289, col 18 to line 289, col 51 of module Bakery_lock: 454985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 290, col 18 to line 293, col 47 of module Bakery_lock: 454984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max5 line 295, col 1 to line 295, col 10 of module Bakery_lock>: 102958:429563
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 295, col 18 to line 295, col 34 of module Bakery_lock: 37990320
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 295, col 18 to line 295, col 25 of module Bakery_lock: 37560762
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 296, col 18 to line 296, col 65 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 18 to line 297, col 62 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 18 to line 298, col 62 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 18 to line 299, col 71 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 300, col 18 to line 300, col 68 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 301, col 18 to line 304, col 47 of module Bakery_lock: 429564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait1 line 309, col 1 to line 309, col 11 of module Bakery_lock>: 861036:2030111
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 309, col 19 to line 309, col 36 of module Bakery_lock: 39590970
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 309, col 19 to line 309, col 26 of module Bakery_lock: 37560862
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 310, col 19 to line 310, col 53 of module Bakery_lock: 2030116
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 19 to line 314, col 64 of module Bakery_lock: 2030114
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait2 line 316, col 1 to line 316, col 11 of module Bakery_lock>: 793179:1948340
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 316, col 19 to line 316, col 36 of module Bakery_lock: 39509252
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 316, col 19 to line 316, col 26 of module Bakery_lock: 37560921
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 317, col 19 to line 317, col 68 of module Bakery_lock: 1948340
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 318, col 19 to line 318, col 53 of module Bakery_lock: 1948340
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 19 to line 322, col 52 of module Bakery_lock: 1948340
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait3 line 324, col 1 to line 324, col 11 of module Bakery_lock>: 628429:1870080
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 324, col 19 to line 324, col 36 of module Bakery_lock: 39431072
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 324, col 19 to line 324, col 26 of module Bakery_lock: 37560999
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 325, col 19 to line 325, col 68 of module Bakery_lock: 1870081
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 325, col 29 to line 325, col 68 of module Bakery_lock: 1870082
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 326, col 19 to line 326, col 53 of module Bakery_lock: 1870082
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 326, col 25 to line 326, col 53 of module Bakery_lock: 1870082
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 327, col 19 to line 330, col 52 of module Bakery_lock: 1870080
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait4 line 332, col 1 to line 332, col 11 of module Bakery_lock>: 556347:1829070
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 19 to line 332, col 36 of module Bakery_lock: 39390157
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 332, col 19 to line 332, col 26 of module Bakery_lock: 37561092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 22 to line 333, col 58 of module Bakery_lock: 1829075
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 333, col 29 to line 333, col 58 of module Bakery_lock: 1829076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 333, col 30 to line 333, col 32 of module Bakery_lock: 1829076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 333, col 41 to line 333, col 57 of module Bakery_lock: 1829073
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 333, col 51 to line 333, col 57 of module Bakery_lock: 1829078
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 333, col 51 to line 333, col 51 of module Bakery_lock: 1829078
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 333, col 53 to line 333, col 56 of module Bakery_lock: 1829079
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 334, col 22 to line 334, col 58 of module Bakery_lock: 1829079
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 334, col 29 to line 334, col 58 of module Bakery_lock: 1829079
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 335, col 22 to line 341, col 70 of module Bakery_lock: 1829079
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 342, col 19 to line 342, col 72 of module Bakery_lock: 1829080
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 343, col 19 to line 343, col 72 of module Bakery_lock: 1829080
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 344, col 19 to line 344, col 51 of module Bakery_lock: 1829080
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 345, col 19 to line 347, col 72 of module Bakery_lock: 1829074
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait5 line 349, col 1 to line 349, col 11 of module Bakery_lock>: 462138:1523527
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 349, col 19 to line 349, col 36 of module Bakery_lock: 39084742
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 349, col 19 to line 349, col 26 of module Bakery_lock: 37561231
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 349, col 19 to line 349, col 20 of module Bakery_lock: 37561238
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 349, col 22 to line 349, col 25 of module Bakery_lock: 37561243
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 350, col 23 to line 350, col 76 of module Bakery_lock: 1523528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 23 to line 350, col 38 of module Bakery_lock: 1523528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 43 to line 350, col 76 of module Bakery_lock: 845713
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 351, col 27 to line 351, col 64 of module Bakery_lock: 970615
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 352, col 27 to line 352, col 64 of module Bakery_lock: 552912
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 353, col 19 to line 356, col 64 of module Bakery_lock: 1523527
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait6 line 358, col 1 to line 358, col 11 of module Bakery_lock>: 152019:932519
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 358, col 19 to line 358, col 36 of module Bakery_lock: 38493844
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 358, col 19 to line 358, col 26 of module Bakery_lock: 37561333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 19 to line 359, col 66 of module Bakery_lock: 932519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 360, col 19 to line 360, col 78 of module Bakery_lock: 932519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 19 to line 361, col 78 of module Bakery_lock: 932519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 362, col 19 to line 362, col 63 of module Bakery_lock: 932520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 363, col 19 to line 363, col 63 of module Bakery_lock: 932520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 364, col 19 to line 364, col 69 of module Bakery_lock: 932520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 365, col 19 to line 367, col 77 of module Bakery_lock: 932519
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p0 line 372, col 1 to line 372, col 8 of module Bakery_lock>: 150979:661359
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 372, col 16 to line 372, col 30 of module Bakery_lock: 38222781
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 372, col 16 to line 372, col 23 of module Bakery_lock: 37561433
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 373, col 16 to line 373, col 47 of module Bakery_lock: 661359
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 374, col 16 to line 376, col 81 of module Bakery_lock: 661359
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p1 line 378, col 1 to line 378, col 8 of module Bakery_lock>: 277616:634229
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 378, col 16 to line 378, col 30 of module Bakery_lock: 38195837
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 378, col 16 to line 378, col 23 of module Bakery_lock: 37561612
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 379, col 16 to line 382, col 64 of module Bakery_lock: 634229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 383, col 16 to line 383, col 73 of module Bakery_lock: 634231
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 384, col 16 to line 384, col 57 of module Bakery_lock: 634231
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 385, col 16 to line 387, col 69 of module Bakery_lock: 634229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p2 line 389, col 1 to line 389, col 8 of module Bakery_lock>: 205537:533404
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 389, col 16 to line 389, col 30 of module Bakery_lock: 38095421
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 389, col 16 to line 389, col 23 of module Bakery_lock: 37562019
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 390, col 16 to line 390, col 63 of module Bakery_lock: 533405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 391, col 16 to line 391, col 48 of module Bakery_lock: 533405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 392, col 16 to line 394, col 75 of module Bakery_lock: 533405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3a line 396, col 1 to line 396, col 9 of module Bakery_lock>: 267326:510074
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 396, col 17 to line 396, col 32 of module Bakery_lock: 38072151
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 396, col 17 to line 396, col 24 of module Bakery_lock: 37562088
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 397, col 17 to line 402, col 65 of module Bakery_lock: 510074
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 403, col 17 to line 403, col 44 of module Bakery_lock: 510076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 404, col 17 to line 404, col 43 of module Bakery_lock: 510076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 405, col 17 to line 405, col 64 of module Bakery_lock: 510076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 406, col 17 to line 406, col 50 of module Bakery_lock: 510076
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 407, col 17 to line 410, col 46 of module Bakery_lock: 510074
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3b line 412, col 1 to line 412, col 9 of module Bakery_lock>: 135830:380115
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 412, col 17 to line 412, col 32 of module Bakery_lock: 37942389
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 412, col 17 to line 412, col 24 of module Bakery_lock: 37562279
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 413, col 21 to line 413, col 57 of module Bakery_lock: 380115
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 414, col 28 to line 414, col 93 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 415, col 28 to line 415, col 31 of module Bakery_lock: 380115
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 416, col 28 to line 416, col 50 of module Bakery_lock: 380115
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 417, col 17 to line 417, col 49 of module Bakery_lock: 380115
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 418, col 17 to line 420, col 76 of module Bakery_lock: 380115
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3c line 422, col 1 to line 422, col 9 of module Bakery_lock>: 161293:359488
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 422, col 17 to line 422, col 32 of module Bakery_lock: 37921822
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 422, col 17 to line 422, col 24 of module Bakery_lock: 37562340
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 423, col 17 to line 423, col 77 of module Bakery_lock: 359488
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 424, col 17 to line 424, col 48 of module Bakery_lock: 359488
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 425, col 17 to line 428, col 46 of module Bakery_lock: 359488
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p4 line 430, col 1 to line 430, col 8 of module Bakery_lock>: 202410:650413
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 430, col 16 to line 430, col 30 of module Bakery_lock: 38212791
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 430, col 16 to line 430, col 23 of module Bakery_lock: 37562386
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 431, col 16 to line 431, col 60 of module Bakery_lock: 650413
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 432, col 16 to line 432, col 48 of module Bakery_lock: 650413
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 433, col 16 to line 435, col 75 of module Bakery_lock: 650413
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5a line 437, col 1 to line 437, col 9 of module Bakery_lock>: 285035:840066
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 437, col 17 to line 437, col 32 of module Bakery_lock: 38402492
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 437, col 17 to line 437, col 24 of module Bakery_lock: 37562427
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 17 to line 437, col 18 of module Bakery_lock: 37562439
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 20 to line 437, col 23 of module Bakery_lock: 37562443
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 438, col 17 to line 438, col 85 of module Bakery_lock: 840066
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 439, col 17 to line 439, col 49 of module Bakery_lock: 840066
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 440, col 17 to line 443, col 46 of module Bakery_lock: 840066
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5b line 445, col 1 to line 445, col 9 of module Bakery_lock>: 695296:2284220
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 445, col 17 to line 445, col 32 of module Bakery_lock: 39049188
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 445, col 17 to line 445, col 24 of module Bakery_lock: 37562484
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 446, col 21 to line 446, col 45 of module Bakery_lock: 1486705
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 448, col 30 to line 448, col 61 of module Bakery_lock: 2107918
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 447, col 40 to line 447, col 59 of module Bakery_lock: 1310402
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 449, col 28 to line 449, col 113 of module Bakery_lock: 2107918
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 450, col 28 to line 450, col 59 of module Bakery_lock: 2107918
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 451, col 28 to line 451, col 72 of module Bakery_lock: 176303
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 452, col 28 to line 452, col 61 of module Bakery_lock: 176303
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 453, col 17 to line 456, col 42 of module Bakery_lock: 2284220
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p6 line 458, col 1 to line 458, col 8 of module Bakery_lock>: 532582:1332094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 458, col 16 to line 458, col 30 of module Bakery_lock: 38894648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 458, col 16 to line 458, col 23 of module Bakery_lock: 37562559
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 459, col 16 to line 459, col 41 of module Bakery_lock: 3113454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 16 to line 459, col 33 of module Bakery_lock: 1781360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 37 to line 459, col 41 of module Bakery_lock: 1781360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 460, col 16 to line 460, col 47 of module Bakery_lock: 1332094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 461, col 16 to line 463, col 81 of module Bakery_lock: 1332094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p7 line 465, col 1 to line 465, col 8 of module Bakery_lock>: 670563:1563053
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 465, col 16 to line 465, col 30 of module Bakery_lock: 39125658
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 465, col 16 to line 465, col 23 of module Bakery_lock: 37562611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 466, col 16 to line 474, col 67 of module Bakery_lock: 1563053
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 475, col 16 to line 475, col 67 of module Bakery_lock: 1563053
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 476, col 16 to line 476, col 67 of module Bakery_lock: 1563053
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 477, col 16 to line 477, col 50 of module Bakery_lock: 1563053
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 478, col 16 to line 480, col 53 of module Bakery_lock: 1563053
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<criticalSection line 482, col 1 to line 482, col 21 of module Bakery_lock>: 52868:169683
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 482, col 29 to line 482, col 56 of module Bakery_lock: 37732339
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 482, col 29 to line 482, col 36 of module Bakery_lock: 37562661
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 483, col 29 to line 483, col 32 of module Bakery_lock: 169683
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 484, col 29 to line 484, col 60 of module Bakery_lock: 169683
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 485, col 29 to line 489, col 58 of module Bakery_lock: 169683
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p9 line 491, col 1 to line 491, col 8 of module Bakery_lock>: 77600:163439
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 491, col 16 to line 491, col 30 of module Bakery_lock: 37726144
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 491, col 16 to line 491, col 23 of module Bakery_lock: 37562711
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 492, col 16 to line 492, col 54 of module Bakery_lock: 163439
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 493, col 16 to line 493, col 47 of module Bakery_lock: 163439
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 494, col 16 to line 496, col 75 of module Bakery_lock: 163439
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 504, col 1 to line 504, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 504, col 19 to line 504, col 56 of module Bakery_lock: 12520914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 505, col 19 to line 505, col 32 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionInvariant line 517, col 1 to line 517, col 24 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 517, col 29 to line 519, col 69 of module Bakery_lock: 13094582
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 56 to line 519, col 69 of module Bakery_lock: 117851247
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 57 to line 517, col 69 of module Bakery_lock: 117851256
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 75 to line 519, col 69 of module Bakery_lock: 78567516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 517, col 75 to line 518, col 69 of module Bakery_lock: 78567517
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 517, col 75 to line 517, col 140 of module Bakery_lock: 78567534
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 517, col 78 to line 517, col 139 of module Bakery_lock: 78567546
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 78 to line 517, col 106 of module Bakery_lock: 78567552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 111 to line 517, col 139 of module Bakery_lock: 352608
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 518, col 32 to line 518, col 69 of module Bakery_lock: 78567571
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 519, col 32 to line 519, col 69 of module Bakery_lock: 78567580
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 49 to line 517, col 52 of module Bakery_lock: 13094599
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionOrderInvariant line 525, col 1 to line 525, col 29 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 525, col 34 to line 527, col 62 of module Bakery_lock: 13094609
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 526, col 37 to line 527, col 62 of module Bakery_lock: 39283833
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 526, col 37 to line 526, col 68 of module Bakery_lock: 39283842
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 527, col 40 to line 527, col 62 of module Bakery_lock: 176305
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 520, col 28 to line 524, col 67 of module Bakery_lock: 176305
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 520, col 29 to line 524, col 67 of module Bakery_lock: 176305
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 521, col 29 to line 524, col 67 of module Bakery_lock: 528915
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 521, col 32 to line 521, col 43 of module Bakery_lock: 528915
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 522, col 32 to line 522, col 51 of module Bakery_lock: 407649
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 523, col 32 to line 523, col 36 of module Bakery_lock: 210824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 520, col 38 to line 520, col 41 of module Bakery_lock: 176305
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 527, col 61 to line 527, col 61 of module Bakery_lock: 176305
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 525, col 43 to line 525, col 46 of module Bakery_lock: 13094634
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(139) at 2021-01-07 12:20:12: 51 029 456 states generated (12 515 139 s/min), 17 319 601 distinct states found (4 226 579 ds/min), 753 616 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(144) at 2021-01-07 12:21:12: 63 544 588 states generated (12 515 132 s/min), 21 526 961 distinct states found (4 207 360 ds/min), 921 093 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(148) at 2021-01-07 12:22:12: 76 064 375 states generated (12 519 787 s/min), 25 706 559 distinct states found (4 179 598 ds/min), 1 059 954 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(152) at 2021-01-07 12:23:12: 88 407 767 states generated (12 343 392 s/min), 29 811 650 distinct states found (4 105 091 ds/min), 1 176 399 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2021-01-07 12:23:12
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 121, col 1 to line 121, col 4 of module Bakery_lock>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 9 to line 147, col 43 of module Bakery_lock: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical0 line 149, col 1 to line 149, col 18 of module Bakery_lock>: 919814:2604826
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 26 to line 149, col 50 of module Bakery_lock: 87208356
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 149, col 26 to line 149, col 33 of module Bakery_lock: 85905950
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 26 to line 149, col 27 of module Bakery_lock: 85905955
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 29 to line 149, col 32 of module Bakery_lock: 85905958
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 28 to line 151, col 70 of module Bakery_lock: 2604826
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 150, col 35 to line 150, col 39 of module Bakery_lock: 1302413:3907239
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 26 to line 152, col 67 of module Bakery_lock: 2604826
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 153, col 26 to line 156, col 71 of module Bakery_lock: 2604826
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical1 line 158, col 1 to line 158, col 18 of module Bakery_lock>: 851526:2509074
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 26 to line 158, col 50 of module Bakery_lock: 88415086
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 26 to line 158, col 33 of module Bakery_lock: 85906020
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 30 to line 159, col 48 of module Bakery_lock: 2509074
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 34 to line 160, col 78 of module Bakery_lock: 1254537
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 78 of module Bakery_lock: 1254537
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 26 to line 165, col 79 of module Bakery_lock: 2509074
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical2 line 167, col 1 to line 167, col 18 of module Bakery_lock>: 380516:1207962
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 26 to line 167, col 50 of module Bakery_lock: 87114073
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 167, col 26 to line 167, col 33 of module Bakery_lock: 85906117
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 26 to line 168, col 67 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 26 to line 172, col 79 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical3 line 174, col 1 to line 174, col 18 of module Bakery_lock>: 0:1162360
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 26 to line 174, col 50 of module Bakery_lock: 87068508
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 174, col 26 to line 174, col 33 of module Bakery_lock: 85906152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 26 to line 175, col 29 of module Bakery_lock: 1162360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 26 to line 176, col 67 of module Bakery_lock: 1162360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 26 to line 180, col 79 of module Bakery_lock: 1162360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical4 line 182, col 1 to line 182, col 18 of module Bakery_lock>: 298089:1207962
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 26 to line 182, col 50 of module Bakery_lock: 87114148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 182, col 26 to line 182, col 33 of module Bakery_lock: 85906188
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 26 to line 183, col 73 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 26 to line 184, col 94 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 26 to line 185, col 76 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 26 to line 189, col 71 of module Bakery_lock: 1207962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll1 line 195, col 1 to line 195, col 9 of module Bakery_lock>: 1337223:4052360
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 17 to line 195, col 32 of module Bakery_lock: 89958575
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 195, col 17 to line 195, col 24 of module Bakery_lock: 85906217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 195, col 17 to line 195, col 18 of module Bakery_lock: 85906224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 195, col 20 to line 195, col 23 of module Bakery_lock: 85906226
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 17 to line 196, col 70 of module Bakery_lock: 4052360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 196, col 28 to line 196, col 70 of module Bakery_lock: 4052361
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 197, col 17 to line 197, col 49 of module Bakery_lock: 4052360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 197, col 23 to line 197, col 49 of module Bakery_lock: 4052361
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 17 to line 201, col 46 of module Bakery_lock: 4052359
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll2 line 203, col 1 to line 203, col 9 of module Bakery_lock>: 1401658:3887201
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 17 to line 203, col 32 of module Bakery_lock: 89793456
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 203, col 17 to line 203, col 24 of module Bakery_lock: 85906259
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 17 to line 204, col 70 of module Bakery_lock: 3887202
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 17 to line 205, col 49 of module Bakery_lock: 3887202
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 17 to line 209, col 46 of module Bakery_lock: 3887201
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll3 line 211, col 1 to line 211, col 9 of module Bakery_lock>: 1299669:5028973
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 17 to line 211, col 32 of module Bakery_lock: 90935257
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 211, col 17 to line 211, col 24 of module Bakery_lock: 85906289
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 21 to line 212, col 49 of module Bakery_lock: 5028973
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 25 to line 219, col 78 of module Bakery_lock: 1290867
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 28 to line 220, col 60 of module Bakery_lock: 3738106
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 28 to line 222, col 59 of module Bakery_lock: 3738106
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 17 to line 225, col 46 of module Bakery_lock: 5028973
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll4 line 227, col 1 to line 227, col 9 of module Bakery_lock>: 1086178:3581178
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 17 to line 227, col 32 of module Bakery_lock: 89487505
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 17 to line 227, col 24 of module Bakery_lock: 85906330
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 21 to line 228, col 74 of module Bakery_lock: 3581178
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 21 to line 228, col 49 of module Bakery_lock: 3581178
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 54 to line 228, col 74 of module Bakery_lock: 415682
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 25 to line 235, col 78 of module Bakery_lock: 140493
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 28 to line 236, col 60 of module Bakery_lock: 3440685
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 28 to line 238, col 59 of module Bakery_lock: 3440685
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 239, col 17 to line 241, col 46 of module Bakery_lock: 3581178
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll5 line 243, col 1 to line 243, col 9 of module Bakery_lock>: 699100:3293542
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 32 of module Bakery_lock: 89199907
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 243, col 17 to line 243, col 24 of module Bakery_lock: 85906368
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 86 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 64 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 79 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 247, col 17 to line 247, col 79 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 67 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 67 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 17 to line 250, col 67 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 251, col 17 to line 253, col 46 of module Bakery_lock: 3293542
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max1 line 258, col 1 to line 258, col 10 of module Bakery_lock>: 1848372:4538410
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 258, col 18 to line 258, col 34 of module Bakery_lock: 90444813
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 258, col 18 to line 258, col 25 of module Bakery_lock: 85906404
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 22 to line 259, col 33 of module Bakery_lock: 4538411
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 26 to line 260, col 62 of module Bakery_lock: 3411385
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 261, col 26 to line 261, col 62 of module Bakery_lock: 1127025
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 262, col 18 to line 265, col 63 of module Bakery_lock: 4538410
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max2 line 267, col 1 to line 267, col 10 of module Bakery_lock>: 1422712:3272592
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 267, col 18 to line 267, col 34 of module Bakery_lock: 89179033
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 267, col 18 to line 267, col 25 of module Bakery_lock: 85906445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 18 to line 268, col 63 of module Bakery_lock: 3272593
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 269, col 18 to line 269, col 51 of module Bakery_lock: 3272593
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 270, col 18 to line 273, col 51 of module Bakery_lock: 3272593
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max3 line 275, col 1 to line 275, col 10 of module Bakery_lock>: 1310606:3730768
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 275, col 18 to line 275, col 34 of module Bakery_lock: 89637253
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 275, col 18 to line 275, col 25 of module Bakery_lock: 85906491
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 22 to line 276, col 41 of module Bakery_lock: 3730769
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 277, col 26 to line 277, col 64 of module Bakery_lock: 1977072
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 278, col 26 to line 279, col 34 of module Bakery_lock: 1753696
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 18 to line 280, col 52 of module Bakery_lock: 3730771
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 18 to line 281, col 51 of module Bakery_lock: 3730771
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 282, col 18 to line 285, col 51 of module Bakery_lock: 3730768
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max4 line 287, col 1 to line 287, col 10 of module Bakery_lock>: 386169:1079894
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 18 to line 287, col 34 of module Bakery_lock: 86986433
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 287, col 18 to line 287, col 25 of module Bakery_lock: 85906544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 288, col 18 to line 288, col 74 of module Bakery_lock: 1079895
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 289, col 18 to line 289, col 51 of module Bakery_lock: 1079895
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 290, col 18 to line 293, col 47 of module Bakery_lock: 1079894
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max5 line 295, col 1 to line 295, col 10 of module Bakery_lock>: 248650:1017580
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 295, col 18 to line 295, col 34 of module Bakery_lock: 86924172
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 295, col 18 to line 295, col 25 of module Bakery_lock: 85906599
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 296, col 18 to line 296, col 65 of module Bakery_lock: 1017580
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 18 to line 297, col 62 of module Bakery_lock: 1017580
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 18 to line 298, col 62 of module Bakery_lock: 1017581
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 18 to line 299, col 71 of module Bakery_lock: 1017581
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 300, col 18 to line 300, col 68 of module Bakery_lock: 1017581
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 301, col 18 to line 304, col 47 of module Bakery_lock: 1017580
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait1 line 309, col 1 to line 309, col 11 of module Bakery_lock>: 1940030:4532543
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 309, col 19 to line 309, col 36 of module Bakery_lock: 90439183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 309, col 19 to line 309, col 26 of module Bakery_lock: 85906642
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 309, col 19 to line 309, col 20 of module Bakery_lock: 85906647
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 309, col 22 to line 309, col 25 of module Bakery_lock: 85906649
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 310, col 19 to line 310, col 53 of module Bakery_lock: 4532544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 19 to line 314, col 64 of module Bakery_lock: 4532543
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait2 line 316, col 1 to line 316, col 11 of module Bakery_lock>: 1789319:4357093
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 316, col 19 to line 316, col 36 of module Bakery_lock: 90263773
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 316, col 19 to line 316, col 26 of module Bakery_lock: 85906685
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 317, col 19 to line 317, col 68 of module Bakery_lock: 4357093
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 318, col 19 to line 318, col 53 of module Bakery_lock: 4357093
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 19 to line 322, col 52 of module Bakery_lock: 4357093
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait3 line 324, col 1 to line 324, col 11 of module Bakery_lock>: 1441558:4185313
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 324, col 19 to line 324, col 36 of module Bakery_lock: 90092028
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 324, col 19 to line 324, col 26 of module Bakery_lock: 85906719
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 325, col 19 to line 325, col 68 of module Bakery_lock: 4185313
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 326, col 19 to line 326, col 53 of module Bakery_lock: 4185313
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 327, col 19 to line 330, col 52 of module Bakery_lock: 4185313
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait4 line 332, col 1 to line 332, col 11 of module Bakery_lock>: 1284331:4221382
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 19 to line 332, col 36 of module Bakery_lock: 90128141
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 332, col 19 to line 332, col 26 of module Bakery_lock: 85906761
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 332, col 19 to line 332, col 20 of module Bakery_lock: 85906763
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 332, col 22 to line 332, col 25 of module Bakery_lock: 85906767
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 19 to line 341, col 70 of module Bakery_lock: 4221382
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 342, col 19 to line 342, col 72 of module Bakery_lock: 4221383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 343, col 19 to line 343, col 72 of module Bakery_lock: 4221383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 344, col 19 to line 344, col 51 of module Bakery_lock: 4221383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 345, col 19 to line 347, col 72 of module Bakery_lock: 4221382
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait5 line 349, col 1 to line 349, col 11 of module Bakery_lock>: 1012622:3539151
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 349, col 19 to line 349, col 36 of module Bakery_lock: 89445957
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 349, col 19 to line 349, col 26 of module Bakery_lock: 85906808
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 350, col 23 to line 350, col 76 of module Bakery_lock: 3539151
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 23 to line 350, col 38 of module Bakery_lock: 3539151
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 43 to line 350, col 76 of module Bakery_lock: 2093863
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 351, col 27 to line 351, col 64 of module Bakery_lock: 2236689
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 352, col 27 to line 352, col 64 of module Bakery_lock: 1302462
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 353, col 19 to line 356, col 64 of module Bakery_lock: 3539151
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait6 line 358, col 1 to line 358, col 11 of module Bakery_lock>: 320739:2148480
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 358, col 19 to line 358, col 36 of module Bakery_lock: 88055356
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 358, col 19 to line 358, col 26 of module Bakery_lock: 85906882
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 19 to line 359, col 66 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 360, col 19 to line 360, col 78 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 19 to line 361, col 78 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 362, col 19 to line 362, col 63 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 363, col 19 to line 363, col 63 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 364, col 19 to line 364, col 69 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 365, col 19 to line 367, col 77 of module Bakery_lock: 2148480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p0 line 372, col 1 to line 372, col 8 of module Bakery_lock>: 328005:1402445
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 372, col 16 to line 372, col 30 of module Bakery_lock: 87309390
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 372, col 16 to line 372, col 23 of module Bakery_lock: 85906952
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 373, col 16 to line 373, col 47 of module Bakery_lock: 1402445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 374, col 16 to line 376, col 81 of module Bakery_lock: 1402445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p1 line 378, col 1 to line 378, col 8 of module Bakery_lock>: 608866:1351680
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 378, col 16 to line 378, col 30 of module Bakery_lock: 87258668
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 378, col 16 to line 378, col 23 of module Bakery_lock: 85906993
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 379, col 16 to line 382, col 64 of module Bakery_lock: 1351680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 383, col 16 to line 383, col 73 of module Bakery_lock: 1351680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 384, col 16 to line 384, col 57 of module Bakery_lock: 1351680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 385, col 16 to line 387, col 69 of module Bakery_lock: 1351680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p2 line 389, col 1 to line 389, col 8 of module Bakery_lock>: 443435:1162591
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 389, col 16 to line 389, col 30 of module Bakery_lock: 87069775
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 389, col 16 to line 389, col 23 of module Bakery_lock: 85907194
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 390, col 16 to line 390, col 63 of module Bakery_lock: 1162591
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 391, col 16 to line 391, col 48 of module Bakery_lock: 1162591
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 392, col 16 to line 394, col 75 of module Bakery_lock: 1162591
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3a line 396, col 1 to line 396, col 9 of module Bakery_lock>: 583209:1117984
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 396, col 17 to line 396, col 32 of module Bakery_lock: 87025224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 396, col 17 to line 396, col 24 of module Bakery_lock: 85907247
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 397, col 17 to line 402, col 65 of module Bakery_lock: 1117984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 403, col 17 to line 403, col 44 of module Bakery_lock: 1117985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 404, col 17 to line 404, col 43 of module Bakery_lock: 1117985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 405, col 17 to line 405, col 64 of module Bakery_lock: 1117985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 406, col 17 to line 406, col 50 of module Bakery_lock: 1117985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 407, col 17 to line 410, col 46 of module Bakery_lock: 1117984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3b line 412, col 1 to line 412, col 9 of module Bakery_lock>: 338501:920769
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 412, col 17 to line 412, col 32 of module Bakery_lock: 86828079
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 412, col 17 to line 412, col 24 of module Bakery_lock: 85907316
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 413, col 21 to line 413, col 57 of module Bakery_lock: 920769
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 414, col 28 to line 414, col 93 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 415, col 28 to line 415, col 31 of module Bakery_lock: 920770
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 416, col 28 to line 416, col 50 of module Bakery_lock: 920769
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 417, col 17 to line 417, col 49 of module Bakery_lock: 920770
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 418, col 17 to line 420, col 76 of module Bakery_lock: 920769
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3c line 422, col 1 to line 422, col 9 of module Bakery_lock>: 405346:883214
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 422, col 17 to line 422, col 32 of module Bakery_lock: 86790583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 422, col 17 to line 422, col 24 of module Bakery_lock: 85907373
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 423, col 17 to line 423, col 77 of module Bakery_lock: 883214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 424, col 17 to line 424, col 48 of module Bakery_lock: 883214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 425, col 17 to line 428, col 46 of module Bakery_lock: 883214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p4 line 430, col 1 to line 430, col 8 of module Bakery_lock>: 536776:1652924
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 430, col 16 to line 430, col 30 of module Bakery_lock: 87560330
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 430, col 16 to line 430, col 23 of module Bakery_lock: 85907409
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 431, col 16 to line 431, col 60 of module Bakery_lock: 1652924
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 432, col 16 to line 432, col 48 of module Bakery_lock: 1652924
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 433, col 16 to line 435, col 75 of module Bakery_lock: 1652924
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5a line 437, col 1 to line 437, col 9 of module Bakery_lock>: 728843:2109310
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 437, col 17 to line 437, col 32 of module Bakery_lock: 88016758
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 437, col 17 to line 437, col 24 of module Bakery_lock: 85907454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 17 to line 437, col 18 of module Bakery_lock: 85907460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 20 to line 437, col 23 of module Bakery_lock: 85907462
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 438, col 17 to line 438, col 85 of module Bakery_lock: 2109310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 439, col 17 to line 439, col 49 of module Bakery_lock: 2109310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 440, col 17 to line 443, col 46 of module Bakery_lock: 2109310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5b line 445, col 1 to line 445, col 9 of module Bakery_lock>: 1505849:5538795
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 445, col 17 to line 445, col 32 of module Bakery_lock: 89422400
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 445, col 17 to line 445, col 24 of module Bakery_lock: 85907504
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 446, col 21 to line 446, col 45 of module Bakery_lock: 3514899
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 448, col 30 to line 448, col 61 of module Bakery_lock: 5151135
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 447, col 40 to line 447, col 59 of module Bakery_lock: 3127237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 449, col 28 to line 449, col 113 of module Bakery_lock: 5151135
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 450, col 28 to line 450, col 59 of module Bakery_lock: 5151135
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 451, col 28 to line 451, col 72 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 452, col 28 to line 452, col 61 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 453, col 17 to line 456, col 42 of module Bakery_lock: 5538795
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p6 line 458, col 1 to line 458, col 8 of module Bakery_lock>: 1234647:2970983
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 458, col 16 to line 458, col 30 of module Bakery_lock: 88878543
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 458, col 16 to line 458, col 23 of module Bakery_lock: 85907565
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 459, col 16 to line 459, col 41 of module Bakery_lock: 6766275
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 16 to line 459, col 33 of module Bakery_lock: 3795292
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 37 to line 459, col 41 of module Bakery_lock: 3795293
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 460, col 16 to line 460, col 47 of module Bakery_lock: 2970984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 461, col 16 to line 463, col 81 of module Bakery_lock: 2970983
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p7 line 465, col 1 to line 465, col 8 of module Bakery_lock>: 1523874:3408636
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 465, col 16 to line 465, col 30 of module Bakery_lock: 89316250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 465, col 16 to line 465, col 23 of module Bakery_lock: 85907618
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 466, col 19 to line 466, col 52 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 466, col 24 to line 466, col 52 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 466, col 25 to line 466, col 25 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 466, col 34 to line 466, col 51 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 467, col 19 to line 467, col 52 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 467, col 24 to line 467, col 52 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 468, col 19 to line 474, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 468, col 28 to line 474, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 475, col 16 to line 475, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 475, col 26 to line 475, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 476, col 16 to line 476, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 476, col 26 to line 476, col 67 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 477, col 16 to line 477, col 50 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 477, col 22 to line 477, col 50 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 478, col 16 to line 480, col 53 of module Bakery_lock: 3408637
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<criticalSection line 482, col 1 to line 482, col 21 of module Bakery_lock>: 124428:372564
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 482, col 29 to line 482, col 56 of module Bakery_lock: 86280250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 482, col 29 to line 482, col 36 of module Bakery_lock: 85907694
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 483, col 29 to line 483, col 32 of module Bakery_lock: 372564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 484, col 29 to line 484, col 60 of module Bakery_lock: 372564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 485, col 29 to line 489, col 58 of module Bakery_lock: 372564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p9 line 491, col 1 to line 491, col 8 of module Bakery_lock>: 171382:358078
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 491, col 16 to line 491, col 30 of module Bakery_lock: 86265802
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 491, col 16 to line 491, col 23 of module Bakery_lock: 85907726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 492, col 16 to line 492, col 54 of module Bakery_lock: 358078
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 493, col 16 to line 493, col 47 of module Bakery_lock: 358078
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 494, col 16 to line 496, col 75 of module Bakery_lock: 358078
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 504, col 1 to line 504, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 504, col 19 to line 504, col 56 of module Bakery_lock: 28635925
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 505, col 19 to line 505, col 32 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionInvariant line 517, col 1 to line 517, col 24 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 517, col 29 to line 519, col 69 of module Bakery_lock: 29812395
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 56 to line 519, col 69 of module Bakery_lock: 268311573
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 57 to line 517, col 69 of module Bakery_lock: 268311573
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 75 to line 519, col 69 of module Bakery_lock: 178874382
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 517, col 75 to line 518, col 69 of module Bakery_lock: 178874394
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 517, col 75 to line 517, col 140 of module Bakery_lock: 178874401
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 517, col 78 to line 517, col 139 of module Bakery_lock: 178874412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 78 to line 517, col 106 of module Bakery_lock: 178874416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 517, col 78 to line 517, col 86 of module Bakery_lock: 178874424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 517, col 78 to line 517, col 79 of module Bakery_lock: 178874430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 517, col 81 to line 517, col 85 of module Bakery_lock: 178874436
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 111 to line 517, col 139 of module Bakery_lock: 775324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 518, col 32 to line 518, col 69 of module Bakery_lock: 178874442
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 519, col 32 to line 519, col 69 of module Bakery_lock: 178874448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 49 to line 517, col 52 of module Bakery_lock: 29812408
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionOrderInvariant line 525, col 1 to line 525, col 29 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 525, col 34 to line 527, col 62 of module Bakery_lock: 29812420
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 526, col 37 to line 527, col 62 of module Bakery_lock: 89437263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 526, col 37 to line 526, col 68 of module Bakery_lock: 89437266
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 527, col 40 to line 527, col 62 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 520, col 28 to line 524, col 67 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 520, col 29 to line 524, col 67 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 521, col 29 to line 524, col 67 of module Bakery_lock: 1162986
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 521, col 32 to line 521, col 43 of module Bakery_lock: 1162986
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 522, col 32 to line 522, col 51 of module Bakery_lock: 849250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 523, col 32 to line 523, col 36 of module Bakery_lock: 458989
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 520, col 38 to line 520, col 41 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 527, col 61 to line 527, col 61 of module Bakery_lock: 387662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 525, col 43 to line 525, col 46 of module Bakery_lock: 29812434
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2777:0 @!@!@
+End of statistics (please note that for performance reasons large models
+are best checked with coverage and cost statistics disabled).
+@!@!@ENDMSG 2777 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(155) at 2021-01-07 12:24:12: 100 515 520 states generated (12 107 753 s/min), 33 827 846 distinct states found (4 016 196 ds/min), 1 275 361 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(158) at 2021-01-07 12:25:12: 112 957 047 states generated (12 441 527 s/min), 37 942 329 distinct states found (4 114 483 ds/min), 1 365 032 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(161) at 2021-01-07 12:26:12: 125 125 109 states generated (12 168 062 s/min), 41 969 664 distinct states found (4 027 335 ds/min), 1 454 948 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(164) at 2021-01-07 12:27:12: 137 166 537 states generated (12 041 428 s/min), 45 956 275 distinct states found (3 986 611 ds/min), 1 545 831 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2021-01-07 12:27:12
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 121, col 1 to line 121, col 4 of module Bakery_lock>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 9 to line 147, col 43 of module Bakery_lock: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical0 line 149, col 1 to line 149, col 18 of module Bakery_lock>: 1468365:4050290
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 26 to line 149, col 50 of module Bakery_lock: 135256666
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 149, col 26 to line 149, col 33 of module Bakery_lock: 133231528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 26 to line 149, col 27 of module Bakery_lock: 133231532
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 149, col 29 to line 149, col 32 of module Bakery_lock: 133231532
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 28 to line 151, col 70 of module Bakery_lock: 4050292
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 150, col 35 to line 150, col 39 of module Bakery_lock: 2025146:6075438
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 26 to line 152, col 67 of module Bakery_lock: 4050292
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 153, col 26 to line 156, col 71 of module Bakery_lock: 4050290
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical1 line 158, col 1 to line 158, col 18 of module Bakery_lock>: 1362721:3898507
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 26 to line 158, col 50 of module Bakery_lock: 137130088
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 26 to line 158, col 33 of module Bakery_lock: 133231582
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 158, col 26 to line 158, col 27 of module Bakery_lock: 133231587
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 158, col 29 to line 158, col 32 of module Bakery_lock: 133231589
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 30 to line 159, col 48 of module Bakery_lock: 3898509
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 34 to line 160, col 78 of module Bakery_lock: 1949254
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 78 of module Bakery_lock: 1949254
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 26 to line 165, col 79 of module Bakery_lock: 3898508
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical2 line 167, col 1 to line 167, col 18 of module Bakery_lock>: 609532:1876246
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 26 to line 167, col 50 of module Bakery_lock: 135107879
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 167, col 26 to line 167, col 33 of module Bakery_lock: 133231634
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 26 to line 168, col 67 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 26 to line 172, col 79 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical3 line 174, col 1 to line 174, col 18 of module Bakery_lock>: 0:1806768
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 26 to line 174, col 50 of module Bakery_lock: 135038443
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 174, col 26 to line 174, col 33 of module Bakery_lock: 133231678
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 26 to line 175, col 29 of module Bakery_lock: 1806768
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 26 to line 176, col 67 of module Bakery_lock: 1806768
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 26 to line 180, col 79 of module Bakery_lock: 1806768
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<nonCritical4 line 182, col 1 to line 182, col 18 of module Bakery_lock>: 477935:1876246
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 26 to line 182, col 50 of module Bakery_lock: 135107962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 182, col 26 to line 182, col 33 of module Bakery_lock: 133231721
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 182, col 26 to line 182, col 27 of module Bakery_lock: 133231725
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 182, col 29 to line 182, col 32 of module Bakery_lock: 133231727
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 26 to line 183, col 73 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 26 to line 184, col 94 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 26 to line 185, col 76 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 26 to line 189, col 71 of module Bakery_lock: 1876246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll1 line 195, col 1 to line 195, col 9 of module Bakery_lock>: 2070275:6194024
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 17 to line 195, col 32 of module Bakery_lock: 139425784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 195, col 17 to line 195, col 24 of module Bakery_lock: 133231764
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 17 to line 196, col 70 of module Bakery_lock: 6194024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 197, col 17 to line 197, col 49 of module Bakery_lock: 6194024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 17 to line 201, col 46 of module Bakery_lock: 6194024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll2 line 203, col 1 to line 203, col 9 of module Bakery_lock>: 2187278:5997432
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 17 to line 203, col 32 of module Bakery_lock: 139229221
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 203, col 17 to line 203, col 24 of module Bakery_lock: 133231790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 17 to line 204, col 70 of module Bakery_lock: 5997432
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 17 to line 205, col 49 of module Bakery_lock: 5997432
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 17 to line 209, col 46 of module Bakery_lock: 5997432
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll3 line 211, col 1 to line 211, col 9 of module Bakery_lock>: 2024578:7932472
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 17 to line 211, col 32 of module Bakery_lock: 141164322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 211, col 17 to line 211, col 24 of module Bakery_lock: 133231852
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 211, col 17 to line 211, col 18 of module Bakery_lock: 133231856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 211, col 20 to line 211, col 23 of module Bakery_lock: 133231858
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 21 to line 212, col 49 of module Bakery_lock: 7932482
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 28 to line 213, col 96 of module Bakery_lock: 2056497
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 214, col 28 to line 214, col 75 of module Bakery_lock: 2056498
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 215, col 28 to line 215, col 90 of module Bakery_lock: 2056498
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 216, col 28 to line 216, col 90 of module Bakery_lock: 2056499
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 216, col 39 to line 216, col 90 of module Bakery_lock: 2056499
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 28 to line 217, col 78 of module Bakery_lock: 2056499
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 217, col 35 to line 217, col 78 of module Bakery_lock: 2056500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 218, col 28 to line 218, col 78 of module Bakery_lock: 2056500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 218, col 35 to line 218, col 78 of module Bakery_lock: 2056500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 219, col 28 to line 219, col 78 of module Bakery_lock: 2056500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 28 to line 220, col 60 of module Bakery_lock: 5875985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 28 to line 222, col 59 of module Bakery_lock: 5875985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 17 to line 225, col 46 of module Bakery_lock: 7932477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll4 line 227, col 1 to line 227, col 9 of module Bakery_lock>: 1731428:5673050
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 17 to line 227, col 32 of module Bakery_lock: 138904970
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 17 to line 227, col 24 of module Bakery_lock: 133231923
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 21 to line 228, col 74 of module Bakery_lock: 5673051
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 21 to line 228, col 49 of module Bakery_lock: 5673051
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 54 to line 228, col 74 of module Bakery_lock: 625959
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 25 to line 235, col 78 of module Bakery_lock: 202365
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 28 to line 236, col 60 of module Bakery_lock: 5470686
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 28 to line 238, col 59 of module Bakery_lock: 5470685
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 239, col 17 to line 241, col 46 of module Bakery_lock: 5673050
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ll5 line 243, col 1 to line 243, col 9 of module Bakery_lock>: 1065219:5277022
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 32 of module Bakery_lock: 138508997
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 243, col 17 to line 243, col 24 of module Bakery_lock: 133231976
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 86 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 64 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 79 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 247, col 17 to line 247, col 79 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 67 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 67 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 17 to line 250, col 67 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 251, col 17 to line 253, col 46 of module Bakery_lock: 5277022
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max1 line 258, col 1 to line 258, col 10 of module Bakery_lock>: 2934012:7319662
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 258, col 18 to line 258, col 34 of module Bakery_lock: 140551682
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 258, col 18 to line 258, col 25 of module Bakery_lock: 133232020
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 258, col 18 to line 258, col 19 of module Bakery_lock: 133232021
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 258, col 21 to line 258, col 24 of module Bakery_lock: 133232025
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 22 to line 259, col 33 of module Bakery_lock: 7319662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 26 to line 260, col 62 of module Bakery_lock: 5450175
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 261, col 26 to line 261, col 62 of module Bakery_lock: 1869487
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 262, col 18 to line 265, col 63 of module Bakery_lock: 7319662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max2 line 267, col 1 to line 267, col 10 of module Bakery_lock>: 2257508:5250129
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 267, col 18 to line 267, col 34 of module Bakery_lock: 138482184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 267, col 18 to line 267, col 25 of module Bakery_lock: 133232057
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 267, col 18 to line 267, col 19 of module Bakery_lock: 133232059
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 267, col 21 to line 267, col 24 of module Bakery_lock: 133232061
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 18 to line 268, col 63 of module Bakery_lock: 5250130
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 269, col 18 to line 269, col 51 of module Bakery_lock: 5250130
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 270, col 18 to line 273, col 51 of module Bakery_lock: 5250129
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max3 line 275, col 1 to line 275, col 10 of module Bakery_lock>: 2083106:6079061
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 275, col 18 to line 275, col 34 of module Bakery_lock: 139311156
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 275, col 18 to line 275, col 25 of module Bakery_lock: 133232096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 22 to line 276, col 41 of module Bakery_lock: 6079062
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 277, col 26 to line 277, col 64 of module Bakery_lock: 3170044
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 278, col 26 to line 279, col 34 of module Bakery_lock: 2909017
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 18 to line 280, col 52 of module Bakery_lock: 6079062
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 18 to line 281, col 51 of module Bakery_lock: 6079062
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 282, col 18 to line 285, col 51 of module Bakery_lock: 6079061
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max4 line 287, col 1 to line 287, col 10 of module Bakery_lock>: 608697:1793391
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 18 to line 287, col 34 of module Bakery_lock: 135025523
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 287, col 18 to line 287, col 25 of module Bakery_lock: 133232134
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 288, col 18 to line 288, col 74 of module Bakery_lock: 1793391
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 289, col 18 to line 289, col 51 of module Bakery_lock: 1793392
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 290, col 18 to line 293, col 47 of module Bakery_lock: 1793391
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<max5 line 295, col 1 to line 295, col 10 of module Bakery_lock>: 387018:1660646
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 295, col 18 to line 295, col 34 of module Bakery_lock: 134892816
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 295, col 18 to line 295, col 25 of module Bakery_lock: 133232174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 296, col 18 to line 296, col 65 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 18 to line 297, col 62 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 18 to line 298, col 62 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 18 to line 299, col 71 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 300, col 18 to line 300, col 68 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 301, col 18 to line 304, col 47 of module Bakery_lock: 1660646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait1 line 309, col 1 to line 309, col 11 of module Bakery_lock>: 2912106:6807034
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 309, col 19 to line 309, col 36 of module Bakery_lock: 140039241
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 309, col 19 to line 309, col 26 of module Bakery_lock: 133232211
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 310, col 19 to line 310, col 53 of module Bakery_lock: 6807034
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 19 to line 314, col 64 of module Bakery_lock: 6807034
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait2 line 316, col 1 to line 316, col 11 of module Bakery_lock>: 2715942:6605260
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 316, col 19 to line 316, col 36 of module Bakery_lock: 139837496
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 316, col 19 to line 316, col 26 of module Bakery_lock: 133232246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 317, col 19 to line 317, col 68 of module Bakery_lock: 6605262
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 318, col 19 to line 318, col 53 of module Bakery_lock: 6605262
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 19 to line 322, col 52 of module Bakery_lock: 6605260
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait3 line 324, col 1 to line 324, col 11 of module Bakery_lock>: 2183839:6404761
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 324, col 19 to line 324, col 36 of module Bakery_lock: 139637038
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 324, col 19 to line 324, col 26 of module Bakery_lock: 133232280
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 324, col 19 to line 324, col 20 of module Bakery_lock: 133232282
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 324, col 22 to line 324, col 25 of module Bakery_lock: 133232283
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 325, col 19 to line 325, col 68 of module Bakery_lock: 6404761
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 326, col 19 to line 326, col 53 of module Bakery_lock: 6404761
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 327, col 19 to line 330, col 52 of module Bakery_lock: 6404761
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait4 line 332, col 1 to line 332, col 11 of module Bakery_lock>: 1962139:6392501
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 19 to line 332, col 36 of module Bakery_lock: 139624822
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 332, col 19 to line 332, col 26 of module Bakery_lock: 133232325
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 19 to line 341, col 70 of module Bakery_lock: 6392501
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 342, col 19 to line 342, col 72 of module Bakery_lock: 6392502
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 343, col 19 to line 343, col 72 of module Bakery_lock: 6392503
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 344, col 19 to line 344, col 51 of module Bakery_lock: 6392503
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 345, col 19 to line 347, col 72 of module Bakery_lock: 6392501
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait5 line 349, col 1 to line 349, col 11 of module Bakery_lock>: 1522435:5374623
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 349, col 19 to line 349, col 36 of module Bakery_lock: 138606994
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 349, col 19 to line 349, col 26 of module Bakery_lock: 133232374
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 350, col 23 to line 350, col 76 of module Bakery_lock: 5374624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 23 to line 350, col 38 of module Bakery_lock: 5374624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 350, col 43 to line 350, col 76 of module Bakery_lock: 3268137
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 351, col 27 to line 351, col 64 of module Bakery_lock: 3328476
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 352, col 27 to line 352, col 64 of module Bakery_lock: 2046147
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 353, col 19 to line 356, col 64 of module Bakery_lock: 5374623
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<wait6 line 358, col 1 to line 358, col 11 of module Bakery_lock>: 468721:3234784
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 358, col 19 to line 358, col 36 of module Bakery_lock: 136467207
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 358, col 19 to line 358, col 26 of module Bakery_lock: 133232424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 19 to line 359, col 66 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 360, col 19 to line 360, col 78 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 19 to line 361, col 78 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 362, col 19 to line 362, col 63 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 363, col 19 to line 363, col 63 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 364, col 19 to line 364, col 69 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 365, col 19 to line 367, col 77 of module Bakery_lock: 3234784
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p0 line 372, col 1 to line 372, col 8 of module Bakery_lock>: 522382:2183839
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 372, col 16 to line 372, col 30 of module Bakery_lock: 135416304
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 372, col 16 to line 372, col 23 of module Bakery_lock: 133232467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 373, col 16 to line 373, col 47 of module Bakery_lock: 2183839
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 374, col 16 to line 376, col 81 of module Bakery_lock: 2183839
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p1 line 378, col 1 to line 378, col 8 of module Bakery_lock>: 959923:2103531
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 378, col 16 to line 378, col 30 of module Bakery_lock: 135336027
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 378, col 16 to line 378, col 23 of module Bakery_lock: 133232502
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 379, col 16 to line 382, col 64 of module Bakery_lock: 2103531
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 383, col 16 to line 383, col 73 of module Bakery_lock: 2103531
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 384, col 16 to line 384, col 57 of module Bakery_lock: 2103531
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 385, col 16 to line 387, col 69 of module Bakery_lock: 2103531
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p2 line 389, col 1 to line 389, col 8 of module Bakery_lock>: 705067:1806626
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 389, col 16 to line 389, col 30 of module Bakery_lock: 135039166
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 389, col 16 to line 389, col 23 of module Bakery_lock: 133232544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 389, col 16 to line 389, col 17 of module Bakery_lock: 133232546
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 389, col 19 to line 389, col 22 of module Bakery_lock: 133232547
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 390, col 16 to line 390, col 63 of module Bakery_lock: 1806626
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 391, col 16 to line 391, col 48 of module Bakery_lock: 1806626
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 392, col 16 to line 394, col 75 of module Bakery_lock: 1806626
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3a line 396, col 1 to line 396, col 9 of module Bakery_lock>: 914769:1739141
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 396, col 17 to line 396, col 32 of module Bakery_lock: 134971720
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 396, col 17 to line 396, col 24 of module Bakery_lock: 133232585
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 396, col 17 to line 396, col 18 of module Bakery_lock: 133232585
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 396, col 20 to line 396, col 23 of module Bakery_lock: 133232587
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 397, col 17 to line 402, col 65 of module Bakery_lock: 1739142
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 403, col 17 to line 403, col 44 of module Bakery_lock: 1739142
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 404, col 17 to line 404, col 43 of module Bakery_lock: 1739142
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 405, col 17 to line 405, col 64 of module Bakery_lock: 1739142
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 406, col 17 to line 406, col 50 of module Bakery_lock: 1739142
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 407, col 17 to line 410, col 46 of module Bakery_lock: 1739141
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3b line 412, col 1 to line 412, col 9 of module Bakery_lock>: 532518:1484985
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 412, col 17 to line 412, col 32 of module Bakery_lock: 134717605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 412, col 17 to line 412, col 24 of module Bakery_lock: 133232622
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 412, col 17 to line 412, col 18 of module Bakery_lock: 133232623
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 412, col 20 to line 412, col 23 of module Bakery_lock: 133232626
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 413, col 21 to line 413, col 57 of module Bakery_lock: 1484985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 414, col 28 to line 414, col 93 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 415, col 28 to line 415, col 31 of module Bakery_lock: 1484985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 416, col 28 to line 416, col 50 of module Bakery_lock: 1484985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 417, col 17 to line 417, col 49 of module Bakery_lock: 1484985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 418, col 17 to line 420, col 76 of module Bakery_lock: 1484985
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p3c line 422, col 1 to line 422, col 9 of module Bakery_lock>: 621314:1424758
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 422, col 17 to line 422, col 32 of module Bakery_lock: 134657429
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 422, col 17 to line 422, col 24 of module Bakery_lock: 133232674
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 423, col 17 to line 423, col 77 of module Bakery_lock: 1424758
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 424, col 17 to line 424, col 48 of module Bakery_lock: 1424758
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 425, col 17 to line 428, col 46 of module Bakery_lock: 1424758
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p4 line 430, col 1 to line 430, col 8 of module Bakery_lock>: 842633:2656334
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 430, col 16 to line 430, col 30 of module Bakery_lock: 135889040
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 430, col 16 to line 430, col 23 of module Bakery_lock: 133232711
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 431, col 16 to line 431, col 60 of module Bakery_lock: 2656334
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 432, col 16 to line 432, col 48 of module Bakery_lock: 2656334
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 433, col 16 to line 435, col 75 of module Bakery_lock: 2656334
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5a line 437, col 1 to line 437, col 9 of module Bakery_lock>: 1136964:3297861
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 437, col 17 to line 437, col 32 of module Bakery_lock: 136530604
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 437, col 17 to line 437, col 24 of module Bakery_lock: 133232745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 17 to line 437, col 18 of module Bakery_lock: 133232747
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 437, col 20 to line 437, col 23 of module Bakery_lock: 133232751
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 438, col 17 to line 438, col 85 of module Bakery_lock: 3297861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 439, col 17 to line 439, col 49 of module Bakery_lock: 3297861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 440, col 17 to line 443, col 46 of module Bakery_lock: 3297861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p5b line 445, col 1 to line 445, col 9 of module Bakery_lock>: 2222664:8552752
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 445, col 17 to line 445, col 32 of module Bakery_lock: 138608645
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 445, col 17 to line 445, col 24 of module Bakery_lock: 133232782
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 446, col 21 to line 446, col 45 of module Bakery_lock: 5375867
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 448, col 30 to line 448, col 61 of module Bakery_lock: 7925430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 447, col 40 to line 447, col 59 of module Bakery_lock: 4748545
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 449, col 28 to line 449, col 113 of module Bakery_lock: 7925430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 450, col 28 to line 450, col 59 of module Bakery_lock: 7925430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 451, col 28 to line 451, col 72 of module Bakery_lock: 627322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 452, col 28 to line 452, col 61 of module Bakery_lock: 627322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 453, col 17 to line 456, col 42 of module Bakery_lock: 8552752
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p6 line 458, col 1 to line 458, col 8 of module Bakery_lock>: 1765402:4264789
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 458, col 16 to line 458, col 30 of module Bakery_lock: 137497616
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 458, col 16 to line 458, col 23 of module Bakery_lock: 133232830
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 458, col 16 to line 458, col 17 of module Bakery_lock: 133232832
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 458, col 19 to line 458, col 22 of module Bakery_lock: 133232832
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 459, col 16 to line 459, col 41 of module Bakery_lock: 9796396
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 16 to line 459, col 33 of module Bakery_lock: 5531607
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 459, col 37 to line 459, col 41 of module Bakery_lock: 5531607
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 460, col 16 to line 460, col 47 of module Bakery_lock: 4264789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 461, col 16 to line 463, col 81 of module Bakery_lock: 4264789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p7 line 465, col 1 to line 465, col 8 of module Bakery_lock>: 2224577:4965760
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 465, col 16 to line 465, col 30 of module Bakery_lock: 138198640
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 465, col 16 to line 465, col 23 of module Bakery_lock: 133232884
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 466, col 16 to line 474, col 67 of module Bakery_lock: 4965760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 475, col 16 to line 475, col 67 of module Bakery_lock: 4965760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 476, col 16 to line 476, col 67 of module Bakery_lock: 4965760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 477, col 16 to line 477, col 50 of module Bakery_lock: 4965760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 478, col 16 to line 480, col 53 of module Bakery_lock: 4965760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<criticalSection line 482, col 1 to line 482, col 21 of module Bakery_lock>: 199404:603267
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 482, col 29 to line 482, col 56 of module Bakery_lock: 133836191
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 482, col 29 to line 482, col 36 of module Bakery_lock: 133232924
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 483, col 29 to line 483, col 32 of module Bakery_lock: 603267
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 484, col 29 to line 484, col 60 of module Bakery_lock: 603267
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 485, col 29 to line 489, col 58 of module Bakery_lock: 603267
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<p9 line 491, col 1 to line 491, col 8 of module Bakery_lock>: 276095:579727
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 491, col 16 to line 491, col 30 of module Bakery_lock: 133812683
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 491, col 16 to line 491, col 23 of module Bakery_lock: 133232958
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 492, col 16 to line 492, col 54 of module Bakery_lock: 579727
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 493, col 16 to line 493, col 47 of module Bakery_lock: 579727
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 494, col 16 to line 496, col 75 of module Bakery_lock: 579727
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 504, col 1 to line 504, col 11 of module Bakery_lock>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 504, col 40 to line 504, col 56 of module Bakery_lock: 44410995
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 504, col 31 to line 504, col 37 of module Bakery_lock: 44410996
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 505, col 19 to line 505, col 32 of module Bakery_lock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionInvariant line 517, col 1 to line 517, col 24 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 517, col 29 to line 519, col 69 of module Bakery_lock: 45956900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 56 to line 519, col 69 of module Bakery_lock: 413612106
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 57 to line 517, col 69 of module Bakery_lock: 413612113
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 517, col 75 to line 519, col 69 of module Bakery_lock: 275741412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 517, col 75 to line 518, col 69 of module Bakery_lock: 275741416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 517, col 75 to line 517, col 140 of module Bakery_lock: 275741416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 517, col 78 to line 517, col 139 of module Bakery_lock: 275741416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 78 to line 517, col 106 of module Bakery_lock: 275741416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 517, col 111 to line 517, col 139 of module Bakery_lock: 1254646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 518, col 32 to line 518, col 69 of module Bakery_lock: 275741416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 519, col 32 to line 519, col 69 of module Bakery_lock: 275741415
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 517, col 49 to line 517, col 52 of module Bakery_lock: 45956905
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<CriticalSectionOrderInvariant line 525, col 1 to line 525, col 29 of module Bakery_lock>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 525, col 34 to line 527, col 62 of module Bakery_lock: 45956916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 526, col 37 to line 527, col 62 of module Bakery_lock: 137870748
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 526, col 37 to line 526, col 68 of module Bakery_lock: 137870748
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 526, col 40 to line 526, col 68 of module Bakery_lock: 137870748
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 526, col 40 to line 526, col 44 of module Bakery_lock: 137870751
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 526, col 40 to line 526, col 41 of module Bakery_lock: 137870754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 526, col 43 to line 526, col 43 of module Bakery_lock: 137870757
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 526, col 50 to line 526, col 68 of module Bakery_lock: 137870757
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 527, col 40 to line 527, col 62 of module Bakery_lock: 627324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 520, col 28 to line 524, col 67 of module Bakery_lock: 627324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 520, col 29 to line 524, col 67 of module Bakery_lock: 627324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 521, col 29 to line 524, col 67 of module Bakery_lock: 1881972
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 521, col 32 to line 521, col 43 of module Bakery_lock: 1881972
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 522, col 32 to line 522, col 51 of module Bakery_lock: 1463553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 523, col 32 to line 523, col 36 of module Bakery_lock: 737953
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 520, col 38 to line 520, col 41 of module Bakery_lock: 627324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 527, col 61 to line 527, col 61 of module Bakery_lock: 627324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 525, col 43 to line 525, col 46 of module Bakery_lock: 45956926
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2777:0 @!@!@
+End of statistics (please note that for performance reasons large models
+are best checked with coverage and cost statistics disabled).
+@!@!@ENDMSG 2777 @!@!@
